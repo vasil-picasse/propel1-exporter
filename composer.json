@@ -1,5 +1,5 @@
 {
-	"name" : "mysql-workbench-schema-exporter/propel-exporter",
+	"name" : "vasil-picasse/propel-exporter",
 	"type" : "library",
 	"description" : "MySQL Workbench Schema Exporter for Propel 1",
 	"keywords" : [
@@ -9,7 +9,7 @@
 		"cli",
 		"propel"
 	],
-	"homepage" : "https://github.com/mysql-workbench-schema-exporter/propel-exporter",
+	"homepage" : "https://github.com/vasil-picasse/propel-exporter",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Johannes Mueller",
