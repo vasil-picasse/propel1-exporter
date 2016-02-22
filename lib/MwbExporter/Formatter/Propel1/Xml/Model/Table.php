@@ -51,6 +51,7 @@ class Table extends BaseTable
                         })
                     ->outdent()
                     ->write('</table>')
+                    ->write('')
                 ->outdent()
             ;
 

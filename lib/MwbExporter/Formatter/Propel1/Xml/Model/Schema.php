@@ -50,7 +50,9 @@ class Schema extends BaseSchema
                     ;
                 }
             })
-            ->write('<database name="%s" defaultIdMethod="native">', $this->getName())
+            ->write('<database name="%s" defaultIdMethod="native"', $this->getName())
+            ->write('xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"')
+            ->write('xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/propelorm/Propel/1.6/generator/resources/xsd/database.xsd">')
             ->writeCallback(function(WriterInterface $writer, Schema $_this = null) {
                 $_this->writeSchema($writer);
             })

@@ -72,7 +72,7 @@ class DatatypeConverter extends BaseDatatypeConverter
             static::DATATYPE_MULTIPOLYGON       => 'object',
             static::DATATYPE_GEOMETRYCOLLECTION => 'object',
             static::DATATYPE_BIT                => 'bigint',
-            static::DATATYPE_ENUM               => 'string',
+            static::DATATYPE_ENUM               => 'enum',
             static::DATATYPE_SET                => 'string',
             static::USERDATATYPE_BOOLEAN        => 'boolean',
             static::USERDATATYPE_BOOL           => 'boolean',
